@@ -39,7 +39,7 @@ Each dataset contains 100 synthetic travellers with two trips each. A fixed, mod
 
 FS standardises numerical retrieval features using the training records and selects the 11 most similar examples by cosine similarity. Same-traveller records are neither excluded nor prioritised. Examples are described as trips by other residents, and traveller IDs are omitted from prompts. Target choices are hidden, and evaluation records are excluded from retrieval. ZS uses no examples.
 
-See the [data description](data/synthetic/README.md) for fields, units and generation rules. To regenerate the synthetic CSVs and evaluation fixtures:
+See the [data description](llm-dcm-mode-choice/data/synthetic/README.md) for fields, units and generation rules. To regenerate the synthetic CSVs and evaluation fixtures:
 
 ```bash
 python scripts/generate_synthetic_data.py
