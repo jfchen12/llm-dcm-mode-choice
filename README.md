@@ -81,5 +81,5 @@ Here, shares are fractions and MAE is in percentage points. Invalid predictions 
 
 ## Scope and provenance
 
-The ZS/FS prompt and retrieval functions retain their original text construction and feature definitions; [source hashes](prompts/provenance.json) document their provenance. This demonstration excludes other prompting configurations, DCM estimation, model execution and cluster job scripts.
+The ZS/FS prompt and retrieval functions retain their original text construction and feature definitions; [source hashes](llm-dcm-mode-choice/prompts/provenance.json) document their provenance. This demonstration excludes other prompting configurations, DCM estimation, model execution and cluster job scripts.
 Additional prompting configurations and supporting code are planned for future updates.
