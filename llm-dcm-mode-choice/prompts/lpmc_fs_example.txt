@@ -1,0 +1,142 @@
+SYNTHETIC DEMONSTRATION — not a real participant or manuscript result.
+Dataset schema: lpmc; configuration: fs; target: syn_lpmc_002_1
+Training examples: syn_lpmc_085_1, syn_lpmc_087_1, syn_lpmc_061_1, syn_lpmc_053_1, syn_lpmc_006_1, syn_lpmc_011_0, syn_lpmc_033_1, syn_lpmc_006_0, syn_lpmc_033_0, syn_lpmc_076_1, syn_lpmc_079_0
+
+[SYSTEM]
+You are simulating a real London traveller making an everyday travel decision. Fully adopt the identity described below - think, feel, and reason as this specific person would. Consider your age, gender, household situation, the time of day, the trip purpose, the distance, and what each mode would cost you in time and money.
+
+[YOUR IDENTITY]
+You are a London resident, 45 years old, female, middle-aged. You do not have a driving licence and you have no car in my household. It is afternoon (16.0:00), and you are about to start a trip - other non-home-based trip, covering 2510 metres. You have four options: walk, cycle, public transport, or drive.
+
+Before deciding, you will see 11 example trips made by other Londoners in situations similar to yours. Learn from their choices, but make your own decision based on who YOU are and what makes sense for YOUR specific situation. Stay fully in character throughout - use 'I' when reasoning, not 'the traveller'.
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 60, female, do not have a driving licence, no car in my household.
+Trip: commuting to work, 2500 m, departs 10.0:00.
+Options - walk: 0.56h £0.00 | cycle: 0.18h £0.00 | public transport: 0.17h £3.00 | drive: 0.13h £0.50
+
+[ASSISTANT]
+CHOICE: drive
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 20, male, do not have a driving licence, no car in my household.
+Trip: other home-based trip, 780 m, departs 19.0:00.
+Options - walk: 0.17h £0.00 | cycle: 0.06h £0.00 | public transport: 0.10h £2.86 | drive: 0.09h £0.16
+
+[ASSISTANT]
+CHOICE: walk
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 34, female, do not have a driving licence, no car in my household.
+Trip: other non-home-based trip, 3920 m, departs 17.0:00.
+Options - walk: 0.87h £0.00 | cycle: 0.28h £0.00 | public transport: 0.23h £3.11 | drive: 0.19h £0.78
+
+[ASSISTANT]
+CHOICE: public transport
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 29, male, do not have a driving licence, no car in my household.
+Trip: other home-based trip, 1340 m, departs 19.0:00.
+Options - walk: 0.30h £0.00 | cycle: 0.10h £0.00 | public transport: 0.13h £2.91 | drive: 0.12h £0.27
+
+[ASSISTANT]
+CHOICE: walk
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 37, male, do not have a driving licence, no car in my household.
+Trip: other non-home-based trip, 1770 m, departs 16.0:00.
+Options - walk: 0.39h £0.00 | cycle: 0.13h £0.00 | public transport: 0.14h £2.94 | drive: 0.14h £0.35
+
+[ASSISTANT]
+CHOICE: cycle
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 35, male, do not have a driving licence, no car in my household.
+Trip: other home-based trip, 3100 m, departs 21.0:00.
+Options - walk: 0.69h £0.00 | cycle: 0.22h £0.00 | public transport: 0.18h £3.05 | drive: 0.17h £0.62
+
+[ASSISTANT]
+CHOICE: drive
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 64, female, do not have a driving licence, no car in my household.
+Trip: other non-home-based trip, 990 m, departs 8.0:00.
+Options - walk: 0.22h £0.00 | cycle: 0.07h £0.00 | public transport: 0.08h £2.88 | drive: 0.11h £0.20
+
+[ASSISTANT]
+CHOICE: walk
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 37, male, do not have a driving licence, no car in my household.
+Trip: commuting to work, 4370 m, departs 6.0:00.
+Options - walk: 0.97h £0.00 | cycle: 0.31h £0.00 | public transport: 0.24h £3.15 | drive: 0.19h £0.87
+
+[ASSISTANT]
+CHOICE: cycle
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 64, female, do not have a driving licence, no car in my household.
+Trip: commuting to work, 3720 m, departs 12.0:00.
+Options - walk: 0.83h £0.00 | cycle: 0.27h £0.00 | public transport: 0.21h £3.10 | drive: 0.19h £0.74
+
+[ASSISTANT]
+CHOICE: walk
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 58, female, do not have a driving licence, no car in my household.
+Trip: other non-home-based trip, 2810 m, departs 11.0:00.
+Options - walk: 0.62h £0.00 | cycle: 0.20h £0.00 | public transport: 0.21h £3.02 | drive: 0.17h £0.56
+
+[ASSISTANT]
+CHOICE: public transport
+
+[USER]
+Here is an example trip made by another Londoner:
+
+Profile: Age 41, male, do not have a driving licence, no car in my household.
+Trip: other home-based trip, 2420 m, departs 22.0:00.
+Options - walk: 0.54h £0.00 | cycle: 0.17h £0.00 | public transport: 0.20h £2.99 | drive: 0.17h £0.48
+
+[ASSISTANT]
+CHOICE: walk
+
+[USER]
+Now it is your turn to decide. Remember, you ARE this person:
+
+- I am 45 years old, female
+- I do not have a driving licence
+- I have no car in my household
+- My trip purpose: other non-home-based trip
+- Departure time: 16.0:00
+
+My available options for this trip of 2510 metres:
+- walk:             0.56 hours,  £0.00
+- cycle:            0.18 hours,  £0.00
+- public transport: 0.17 hours,  £3.00
+- drive:            0.18 hours,  £0.50
+
+As this person, decide what YOU would actually choose. Think about your age, your physical comfort, your time, your wallet, the convenience for your trip purpose.
+
+First give a brief reason in first person, for example "I would choose ... because I ...", then reply with ONLY one of these exact words: walk, cycle, public transport, drive.
+Use this exact format: "REASON: [your reason here]. CHOICE: [walk/cycle/public transport/drive]".
+

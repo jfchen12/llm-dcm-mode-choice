@@ -1,0 +1,27 @@
+SYNTHETIC DEMONSTRATION — not a real participant or manuscript result.
+Dataset schema: lpmc; configuration: zs; target: syn_lpmc_002_1
+Training examples: none
+
+[SYSTEM]
+You are an expert in travel behavior modelling.
+
+[USER]
+Predict the most likely travel mode for this traveller.
+
+Your profile:
+- Age: 45, female
+- You do not have a driving licence
+- You have no car in my household
+- Trip purpose: other non-home-based trip
+- Departure time: 16.0:00
+
+Your available options for this trip of 2510 metres:
+- walk:             0.56 hours,  £0.00
+- cycle:            0.18 hours,  £0.00
+- public transport: 0.17 hours,  £3.00
+- drive:            0.18 hours,  £0.50
+
+First give a brief reason why you choose that mode, then reply with ONLY one of these exact words: walk, cycle, public transport, drive.
+Use this exact format: "REASON: [your reason here]. CHOICE: [walk/cycle/public transport/drive]".
+
+

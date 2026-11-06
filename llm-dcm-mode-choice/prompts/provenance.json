@@ -1,0 +1,32 @@
+{
+  "scripts/prompt_templates/hrts_zs.py": {
+    "source_file": "hsl_zeroshot.py",
+    "source_sha256": "a7671aad9c5326329a87b754509e01126b449b23a05ccacbe02b729cc482bab2",
+    "retained": "Original prompt-building or retrieval functions; model loading, inference and private paths omitted."
+  },
+  "scripts/prompt_templates/hrts_fs.py": {
+    "source_file": "hsl_fewshot.py",
+    "source_sha256": "c4974cef848bc1b5b9fd5c4ef64930c126be074f70ffc3272a0f123983a08e54",
+    "retained": "Original prompt-building or retrieval functions; model loading, inference and private paths omitted."
+  },
+  "scripts/prompt_templates/hrts_retrieval.py": {
+    "source_file": "hsl_retriever.py",
+    "source_sha256": "e82bd54d8a8695c584d458d08b8b9c54f9d09943a1fc45c2c7d0b2976bc0ed6c",
+    "retained": "Original prompt-building or retrieval functions; model loading, inference and private paths omitted."
+  },
+  "scripts/prompt_templates/lpmc_zs.py": {
+    "source_file": "lpmc_zeroshot.py",
+    "source_sha256": "7c9c02a129b2b61cb0bf2497f863353d6dc676e44e43690cb63ba3bff124fd4f",
+    "retained": "Original prompt-building or retrieval functions; model loading, inference and private paths omitted."
+  },
+  "scripts/prompt_templates/lpmc_fs.py": {
+    "source_file": "lpmc_fewshot.py",
+    "source_sha256": "3d9c224bb9371b6a7434075781a482c352fdd5e766cacacf7fe4535a4e692c89",
+    "retained": "Original prompt-building or retrieval functions; model loading, inference and private paths omitted."
+  },
+  "scripts/prompt_templates/lpmc_retrieval.py": {
+    "source_file": "lpmc_retriever.py",
+    "source_sha256": "c5546f1a93344d52d757fef8e76ddb266b2483e40025269f6505d2aa8f1df4b2",
+    "retained": "Original prompt-building or retrieval functions; model loading, inference and private paths omitted."
+  }
+}
